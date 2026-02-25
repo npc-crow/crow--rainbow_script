@@ -1,3 +1,5 @@
+Name has changed because I may refactor this in future to be less spaghetti.
+
 Simple script that allows you to turn text or background elements into rainbow garbage.
 
 You can change the speed and direction of the effect by settings the individual speed variables to be a different number. Negative numbers invert the direction.
