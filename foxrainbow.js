@@ -1,6 +1,3 @@
-//Script made by FeedbackFox. Please refrain from distributing this outside of github, but feel free to use it in whatever you want, whether commercial or non-commercial.
-//https://github.com/FeedbackFox/RGB-CSS-script
-
 (function(){
     let textspeed = 1;
     let backgroundspeed = 0.1;
