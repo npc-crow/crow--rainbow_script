@@ -4,6 +4,14 @@ Simple script that allows you to turn text or background elements into rainbow g
 
 You can change the speed and direction of the effect by settings the individual speed variables to be a different number. Negative numbers invert the direction.
 
+NEW (crowrainbow.css):
+Class  | Effect
+------------- | -------------
+crowRainbowText  | Rainbow effect on text. CSS animated so MUCH more performant.
+
+
+
+OLD (foxrainbow.js):
 Class  | Effect
 ------------- | -------------
 foxrainbow  | Rainbow effect on anything with css color support.

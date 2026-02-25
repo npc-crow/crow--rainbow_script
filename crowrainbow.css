@@ -8,11 +8,10 @@
 
     /* Changes size of gradient. Must be divided or multiplied by factors of 2, and cannot be 1. 
     If stuttering, increase background-position in the animation and change speed to match.*/
-    background-size: calc(100% * 2);
+    background-size: calc(100% / 2);
     
-    animation: crowRainbowText 10s linear infinite;
+    animation: crowRainbowText 25s linear infinite;
     /* Change speed with this control, or reverse direction by adding reverse */
-
 
 }
 
@@ -24,4 +23,8 @@
     to {
         background-position: 1000% 0%;
     }
+}
+
+.crowRainbowBackground {
+    
 }
