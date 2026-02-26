@@ -4,5 +4,5 @@ foxrainbow.js is deprecated and should not be used - old spaghetti that runs bad
 crowrainbow.css:
 Class  | Effect
 ------------- | -------------
-crowRainbowText  | Rainbow effect on text. CSS animated so MUCH more performant.
-crowRainbowBackground | Rainbow effect on background-color. CSS animated.
+crowRainbowText  | Rainbow effect on text.
+crowRainbowBackground | Rainbow effect on background-color.
