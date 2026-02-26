@@ -8,6 +8,7 @@ NEW (crowrainbow.css):
 Class  | Effect
 ------------- | -------------
 crowRainbowText  | Rainbow effect on text. CSS animated so MUCH more performant.
+crowRainbowBackground | Rainbow effect on background-color. CSS animated.
 
 
 

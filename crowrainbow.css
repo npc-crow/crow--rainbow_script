@@ -1,3 +1,7 @@
+/*//////////////*/
+/*     Text     */
+/*//////////////*/
+
 .crowRainbowText {
     background: linear-gradient(to right in hsl longer hue,
                 hsl(0 100% 70%),
@@ -25,6 +29,26 @@
     }
 }
 
+
+/*////////////////////////*/
+/*    Background Color    */
+/*////////////////////////*/
+
+
+@property --hue {
+    syntax: "<number>";
+    inherits: false;
+    initial-value: 0;
+}
+
 .crowRainbowBackground {
-    
+    --hue: 0;
+    background-color: hsl(var(--hue) 100% 70%);
+    animation: crowRainbowBackground 2s linear infinite;
+}
+
+@keyframes crowRainbowBackground {
+    to {
+        --hue: 359;
+    }
 }
